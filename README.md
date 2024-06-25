@@ -15,6 +15,8 @@ Two replicas can be trained similarly:
 python two_replicas -L L -k K --beta BETA --shift SHIFT
 ```
 where SHIFT $\in \mathbb{N} \cap (-L/2, L/2)$ is a value defining a shift between two subsystems A and B. If 0, then they are of the same size.
+
+Models trained in this way will be saved by default to ./saved_states, controlled by --path_saved parameter. 
 # Generation
 
 ```
@@ -23,3 +25,4 @@ python generate_one_replica.py -L L -k K --beta BETA
 ```
 python generate_two_replicas.py -L L -k K --beta BETA
 ```
+Generated data will be saved by default to ./data, controlled by --path_data parameter.
