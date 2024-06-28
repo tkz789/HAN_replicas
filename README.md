@@ -26,3 +26,7 @@ python generate_one_replica.py -L L -k K --beta BETA
 python generate_two_replicas.py -L L -k K --beta BETA
 ```
 Generated data will be saved by default to ./data, controlled by --path_data parameter.
+
+# Additional informations
+## Parameters printed out during training:
+- ESS - effective sample size, ESS $\in [0, 1]$. It is $\approx$ 1 for well trained networks.
