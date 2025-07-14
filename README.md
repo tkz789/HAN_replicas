@@ -30,3 +30,6 @@ Generated data will be saved by default to ./data, controlled by --path_data par
 # Additional informations
 ## Parameters printed out during training:
 - ESS - effective sample size, ESS $\in [0, 1]$. It is $\approx$ 1 for well trained networks.
+
+# Acknowledgement
+This research was funded in part by National Science Centre, Poland, grant No. 2021/43/D/ST2/03375.
